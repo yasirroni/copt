@@ -1,9 +1,9 @@
 # Capacity Outage Probability Table (COPT) Maker
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/copt/blob/main/notebooks/copt.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/copt/HEAD?labpath=notebooks%2Fcopt.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/copt/blob/main/notebooks/app.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/copt/HEAD?labpath=notebooks%2Fapp.ipynb)
 
-Fast Capacity Outage Probability Table (COPT) generator power by `NumPy`.
+Fast Capacity Outage Probability Table (COPT) generator powered by `NumPy`.
 
 ## Feature
 
