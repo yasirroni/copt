@@ -20,9 +20,18 @@ Fast Capacity Outage Probability Table (COPT) generator powered by `NumPy`.
 
 ## Contributing
 
-1. We use [`nb-clean`](https://github.com/srstevenson/nb-clean) to clean notebooks metadata.
+1. We use [`nb-clean`](https://github.com/srstevenson/nb-clean) to clean notebooks metadata. It should not be added as filter since Colab metadata will be added later.
 
     ```shell
     pip install nb-clean
-    nb-clean add-filter --preserve-cell-outputs
+    nb-clean clean notebooks/app.ipynb --preserve-cell-outputs --preserve-cell-metadata
+    ```
+
+1. To better support colab, add below metadata (after clean) to hide cell in colab (only on the UI cell):
+
+    ```shell
+       "metadata": {
+        "cellView": "form",
+        "colab": {}
+       },
     ```
