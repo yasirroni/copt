@@ -29,7 +29,7 @@ Forced Outage Data
         ├── Loss of Load Probability
         │   └── Loss Of Load Expectation
         └────── Expected Energy Not Served
-                └── Load Shedding Cost
+                └── Expected Unserved Energy Cost
 ```
 
 Step by step pseudocode
@@ -67,7 +67,7 @@ EENS = sum(
     COPT_probabilities * (COPT_capacities < demand) * (demand - COPT_capacities)
 )
 
-# Load Shedding Cost
+# Expected Unserved Energy Cost
 cost = EENS * VOLL
 ```
 
