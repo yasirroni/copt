@@ -1,6 +1,3 @@
-# released app
-notebooks/app_*.ipynb
-
 # Input files
 notebooks/*.csv
 
