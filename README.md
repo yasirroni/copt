@@ -33,8 +33,8 @@ Forced Outage Data
         ├── Loss of Load Probability
         │   └── Loss Of Load Expectation
         └────── Expected Energy Not Served
-                └── Expected Unserved Energy Cost
-                    └── Capacity Credit
+                ├── Expected Unserved Energy Cost
+                └── Capacity Credit
 ```
 
 ## Contributing
@@ -62,6 +62,6 @@ Forced Outage Data
 
 ## TODOs
 
-1. Download template
+1. Download templates
 
 1. Publish package
