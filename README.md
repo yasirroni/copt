@@ -20,10 +20,6 @@ All notebooks are available in Colab.
 
 1. Calculate Capacity Credit (CC).
 
-    > **Warning**
-    >
-    > WIP!
-
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/copt/blob/main/notebooks/app_cc.ipynb)
 
 ## Program structure
