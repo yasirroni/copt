@@ -1,0 +1,19 @@
+[tool.autopep8]
+max_line_length = 88
+in-place = true
+recursive = true
+aggressive = 10
+
+[tool.ruff]
+fix = true
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+ignore = [
+    "B90",  # support <3.10
+]
