@@ -60,6 +60,22 @@ Forced Outage Data
        },
     ```
 
+1. Autofix using pre-commit (optional):
+
+    To run on all files
+
+    ```shell
+    pre-commit run --all-files
+    ```
+
+    To run on `notebooks`:
+
+    ```shell
+    pre-commit run --files notebooks/app_cc.ipynb
+    pre-commit run --files notebooks/app_copt.ipynb
+    pre-commit run --files notebooks/app_eunc.ipynb
+    ```
+
 ## TODOs
 
 1. Download templates
