@@ -1,7 +1,7 @@
 repos:
   # check yaml and end of file fixer
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.5.0
+    rev: v4.4.0
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
@@ -15,4 +15,4 @@ repos:
     - id: nbqa-autopep8
       additional_dependencies: [autopep8==2.0.1]
     - id: nbqa-ruff
-      additional_dependencies: [ruff==0.0.221]
+      additional_dependencies: [ruff==0.0.226]
