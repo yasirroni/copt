@@ -43,9 +43,9 @@ Forced Outage Data
 
     ```shell
     pip install nb-clean
-    nb-clean clean notebooks/app_cc.ipynb -m cellView -M
-    nb-clean clean notebooks/app_copt.ipynb -m cellView -M
-    nb-clean clean notebooks/app_eunc.ipynb -m cellView -M
+    nb-clean clean notebooks/app_cc.ipynb -m tags cellView -M
+    nb-clean clean notebooks/app_copt.ipynb -m tags cellView -M
+    nb-clean clean notebooks/app_eunc.ipynb -m tags cellView -M
     ```
 
     > **Warning**

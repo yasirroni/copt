@@ -1,3 +1,6 @@
+[tool.nbqa.skip_celltags]
+ruff = ["skip-ruff"]
+
 [tool.autopep8]
 max_line_length = 88
 in-place = true
